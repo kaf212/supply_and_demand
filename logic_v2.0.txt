@@ -1,0 +1,29 @@
+
+every day, each buyer competes to buy at the cheapest selling seller.
+all buyers offer the cheapest seller their optimum. The buyer with the highest optimum gets the item and leaves the
+market. The rest of the buyers goes to compete at the next cheaper seller.
+this goes on until all the sellers have sold their item or all the buyers
+have bought an item or have been outbid.
+
+at the end of every day, the buyers will ...
+    A) ... raise their optimum if they didn't buy an item
+    B) ... lower their optimum if they did buy an item
+
+at the end of every day, the sellers will ...
+    A) lower their optimum if they didn't sell their item
+    B) raise their optimum if they sold their item
+
+
+the optimum of the buyer cannot be above the maximum
+
+the optimum of the seller cannot below the minimum
+
+
+the minimum of the seller is equal to his cost
+
+the maximum of the buyer is equal to his budget
+
+
+the optimum of the seller starts at a high price
+
+the optimum of the buyer starts at a low price

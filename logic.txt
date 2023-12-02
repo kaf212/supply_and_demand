@@ -1,0 +1,23 @@
+
+Every day, n transactions are completed.
+A transaction involves a seller, selling his good to a buyer.
+the demand of a day is how many goods have been bought
+the supply of the day is at what average price the goods have been bought
+
+
+every seller has a minumum price and a optimal price.
+the minimum price exactly covers his costs
+the optimal price would be the maximum prive of the buyer (not known to the seller)
+
+
+every buyer has a maximum price and an optimal price
+the maximum price is the maximum he can afford (dependent on budget)
+the optimum price is the minimum of the seller (not known to the buyer)
+
+at every start of the day, every seller compares his price to the competition.
+if the competition has made on average more transactions than him, he will lower the price
+1 unit lower than the average price, if his minimum allows that. If not, he lowers the price
+as far as he can afford.
+
+a transaction between seller and buyer is only made, when the price is above the sellers
+minimum and below the buyers maximum. The transaction is always
